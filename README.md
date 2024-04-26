@@ -21,3 +21,8 @@ I am a **Software Engineer** with a master's degree in Software Development. I c
 💬 Let's discuss software development, business strategies, or research ideas! Whether it's optimizing code efficiency, architecting scalable solutions, or strategizing for business success, I'm always up for a stimulating conversation.
 
 📫 Reach out to me at [email](mailto:sunnyk.kongu.com) collaborate on your next project or explore exciting opportunities together!
+
+
+**Thanks & Regards** <br>
+**Sunny Kumar**
+
