@@ -1,6 +1,6 @@
 # Hi👋, I’m Sunny Kumar
 
-I am a **Software Engineer** with a master's degree in Software Development. I currently work as **Web & Backend Developer** using Php and Python Framekworks. My passion is creativity with `code`, where I transform my ideas into amazing solutions. Let's explore this digital journey together!
+I am a **Software Engineer** with a master's degree in Software Development. I currently work as a **Web & Backend Developer** using PHP, node js and Python frameworks. My passion is creativity with `code`, where I transform my ideas into amazing solutions. Let's explore this digital journey together!
 
 👨‍💻 Experienced *Web & Backend Developer*
 
@@ -33,12 +33,10 @@ I am a **Software Engineer** with a master's degree in Software Development. I c
 - **Version Control**: Git, Bitbucket
 - **API Testing**: Postman
 - **Hosting & Deployment**: cPanel, AWS (EC2, S3)
-  
+
 💬 Let's discuss software development, business strategies, or research ideas! Whether it's optimizing code efficiency, architecting scalable solutions, or strategizing for business success, I'm always up for a stimulating conversation.
 
-📫 Reach out to me at [email](mailto:sunnyk.kongu.com) collaborate on your next project or explore exciting opportunities together!
+📫 Reach out to me at [email](mailto:sunnyk.kongu.com) or explore my [portfolio](https://stalkdeveloper.github.io/portfolio/) to see my work and collaborate on your next project or explore exciting opportunities together!
 
-
-**Thanks & Regards** <br>
+**Thanks & Regards**  
 **Sunny Kumar**
-
