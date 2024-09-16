@@ -13,10 +13,26 @@ I am a **Software Engineer** with a master's degree in Software Development. I c
 💡 Proficient in PHP and Python frameworks, including Laravel, CodeIgniter, WordPress, and Django, I leverage the power of these tools to architect scalable, high-performance systems tailored to meet the unique needs of each project.
 
 ## Tech Stack 🚀
-- **Languages**  : HTML, CSS, JavaScript, Ajax, jQuery, C, C++, Python, PHP and API
-- **Databases**  : MySQL, SqLite
-- **Frameworks** : Django, Laravel, Codeigniter, WordPress, Bootstrap, Tailwind CSS
-- **Tools**      : Vs Code, Git, Bitbucket, Postman, Cpanel, AWS (EC2, S3)
+
+### **Languages**
+- **Web**: HTML, CSS, JavaScript, AJAX, jQuery
+- **Server-side**: Node.js, PHP, Python, C, C++
+- **APIs**: RESTful APIs
+
+### **Databases**
+- MySQL
+- MongoDB
+- SQLite
+
+### **Frameworks**
+- **Web Development**: Django, Laravel, CodeIgniter, WordPress
+- **Frontend UI**: Bootstrap, Tailwind CSS
+
+### **Tools**
+- **Code Editors**: VS Code
+- **Version Control**: Git, Bitbucket
+- **API Testing**: Postman
+- **Hosting & Deployment**: cPanel, AWS (EC2, S3)
   
 💬 Let's discuss software development, business strategies, or research ideas! Whether it's optimizing code efficiency, architecting scalable solutions, or strategizing for business success, I'm always up for a stimulating conversation.
 
