@@ -4,7 +4,7 @@ I am a **Software Engineer** with a master's degree in Software Development. I c
 
 👨‍💻 Experienced *Web & Backend Developer*
 
-🚀 Passionate about turning ideas into innovative solutions through code! With over *2.5+ years* of hands-on experience, I've honed my skills in crafting robust web applications and backend systems that not only meet but exceed expectations.
+🚀 Passionate about turning ideas into innovative solutions through code! With over *2.7+ years* of hands-on experience, I've honed my skills in crafting robust web applications and backend systems that not only meet but exceed expectations.
 
 👨‍🚀 Currently navigating the world as a *Web & Backend Developer*, I thrive on challenges and am driven by a relentless pursuit of excellence in every project I undertake.
 
@@ -25,12 +25,12 @@ I am a **Software Engineer** with a master's degree in Software Development. I c
 - SQLite
 
 ### **Frameworks**
-- **Web Development**: Django, Laravel, CodeIgniter, WordPress
+- **Web Development**: Django, Laravel, CodeIgniter, WordPress, Express 
 - **Frontend UI**: Bootstrap, Tailwind CSS
 
 ### **Tools**
 - **Code Editors**: VS Code
-- **Version Control**: Git, Bitbucket
+- **Version Control**: Git, Gitlab, Bitbucket
 - **API Testing**: Postman
 - **Hosting & Deployment**: cPanel, AWS (EC2, S3)
 
