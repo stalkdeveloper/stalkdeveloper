@@ -1,9 +1,9 @@
 {
+  "homepage": "https://stalkdeveloper.github.io/stalkdeveloper",
   "name": "stalkdeveloper",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://stalkdeveloper.github.io/stalkdeveloper",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
