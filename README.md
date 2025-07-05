@@ -36,7 +36,7 @@ I am a **Software Engineer** with a master's degree in Software Development. I c
 
 💬 Let's discuss software development, business strategies, or research ideas! Whether it's optimizing code efficiency, architecting scalable solutions, or strategizing for business success, I'm always up for a stimulating conversation.
 
-📫 Reach out to me at [email](mailto:sunnyk.kongu.com) or explore my [portfolio](https://stalkdeveloper.github.io/portfolio/) to see my work and collaborate on your next project or explore exciting opportunities together!
+📫 Reach out to me at [email](mailto:sunnyk.kongu.com) or explore my [portfolio](https://stalkdeveloper.github.io/stalkdeveloper/) to see my work and collaborate on your next project or explore exciting opportunities together!
 
 **Thanks & Regards**  
 **Sunny Kumar**
