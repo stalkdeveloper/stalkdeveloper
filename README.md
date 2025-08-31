@@ -55,7 +55,7 @@ An open-source Laravel package that **automates CRUD (Create, Read, Update, Dele
 - Speeds up Laravel project scaffolding
 
 📦 Packagist: [stalkdeveloper/laravel-crud-generator](https://packagist.org/packages/stalkdeveloper/laravel-crud-generator)  
-📂 GitHub (coming soon or private)
+📂 GitHub [https://github.com/stalkdeveloper/laravel-crud-generator](https://github.com/stalkdeveloper/laravel-crud-generator)
 
 ---
 
