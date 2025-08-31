@@ -1,42 +1,78 @@
-# Hi👋, I’m Sunny Kumar
+# 👋 Hi there, I'm Sunny Kumar
 
-I am a **Software Engineer** with a master's degree in Software Development. I currently work as a **Web & Backend Developer** using PHP, node js and Python frameworks. My passion is creativity with `code`, where I transform my ideas into amazing solutions. Let's explore this digital journey together!
+I'm a passionate **Software Engineer** with a Master's in Computer Applications (MCA), currently working as a **Web & Backend Developer** with over **3.3 years of professional experience**.
 
-👨‍💻 Experienced *Web & Backend Developer*
+I specialize in crafting **scalable backend systems**, developing robust **RESTful APIs**, and building full-featured **web applications** using modern tech stacks like **Laravel, Node.js, and Django**.
 
-🚀 Passionate about turning ideas into innovative solutions through code! With over *3.3+ years* of hands-on experience, I've honed my skills in crafting robust web applications and backend systems that not only meet but exceed expectations.
+---
 
-👨‍🚀 Currently navigating the world as a *Web & Backend Developer*, I thrive on challenges and am driven by a relentless pursuit of excellence in every project I undertake.
+## 🚀 About Me
 
-🌱 Constantly exploring cutting-edge technologies to fuel my career growth, I believe in staying ahead of the curve to deliver state-of-the-art solutions that stand the test of time.
+- 👨‍💻 Web & Backend Developer focused on building efficient, secure systems and seamless user experiences.
+- 🧠 Advocate of clean architecture, optimized databases, and modular code design.
+- 🔁 Experienced with 3rd-party integrations (Binance, Bybit, Firebase, Google/Outlook Calendar, Slotegrator).
+- 🌱 Exploring DevOps, system design, event-driven architecture, and distributed systems.
+- 🎯 Committed to building meaningful products that solve real-world problems.
 
-💡 Proficient in PHP and Python frameworks, including Laravel, CodeIgniter, WordPress, and Django, I leverage the power of these tools to architect scalable, high-performance systems tailored to meet the unique needs of each project.
+---
 
-## Tech Stack 🚀
+## 🛠️ Tech Stack
 
-### **Languages**
-- **Web**: HTML, CSS, JavaScript, AJAX, jQuery
-- **Server-side**: Node.js, PHP, Python, C, C++
-- **APIs**: RESTful APIs
+### 💻 **Languages**
+- HTML, CSS, JavaScript, AJAX, jQuery
+- Node.js, Core PHP, Python (Basic), C, C++
+- RESTful API Design
 
-### **Databases**
-- MySQL
-- MongoDB
-- SQLite
+### 🧱 **Frameworks & Libraries**
+- **Backend**: Laravel, CodeIgniter, Express.js, Django
+- **Frontend**: Bootstrap, Tailwind CSS, React.js (Basic)
+- **CMS**: WordPress
 
-### **Frameworks**
-- **Web Development**: Django, Laravel, CodeIgniter, WordPress, Express 
-- **Frontend UI**: Bootstrap, Tailwind CSS
+### 🗄️ **Databases**
+- MySQL, MongoDB, SQLite
 
-### **Tools**
-- **Code Editors**: VS Code
-- **Version Control**: Git, Gitlab, Bitbucket
-- **API Testing**: Postman
-- **Hosting & Deployment**: cPanel, AWS (EC2, S3)
+### ☁️ **DevOps & Tools**
+- Git, GitLab, Bitbucket  
+- Postman, Firebase  
+- AWS (EC2, S3 - Basic), Docker (Basic), cPanel  
+- CI/CD (Familiarity)
 
-💬 Let's discuss software development, business strategies, or research ideas! Whether it's optimizing code efficiency, architecting scalable solutions, or strategizing for business success, I'm always up for a stimulating conversation.
+### 🧠 **Architecture & Design**
+- MVC, MVT, Scalable API Design  
+- WebSockets, Event Listeners, Cron Jobs  
+- Role-Based Access Control (RBAC)
 
-📫 Reach out to me at [email](mailto:sunnyk.kongu.com) or explore my [portfolio](https://stalkdeveloper.github.io/stalkdeveloper/) to see my work and collaborate on your next project or explore exciting opportunities together!
+---
 
-**Thanks & Regards**  
-**Sunny Kumar**
+## 📈 Open Source Contributions
+
+### 🔧 [Laravel CRUD Generator](https://packagist.org/packages/stalkdeveloper/laravel-crud-generator) — Published on Packagist  
+An open-source Laravel package that **automates CRUD (Create, Read, Update, Delete)** code generation for rapid backend development and admin panel setup.
+
+**Key Features:**
+- Auto-generates models, migrations, controllers, routes
+- Supports validation rules and input types
+- Speeds up Laravel project scaffolding
+
+📦 Packagist: [stalkdeveloper/laravel-crud-generator](https://packagist.org/packages/stalkdeveloper/laravel-crud-generator)  
+📂 GitHub (coming soon or private)
+
+---
+
+## 💬 Let's Connect
+
+I'm always up for conversations around:
+- Scalable software development
+- Backend architecture and DevOps
+- Freelance/full-time opportunities
+- Open-source and community contributions
+
+📫 Email: [sunnyk.kongu@gmail.com](mailto:sunnyk.kongu@gmail.com)  
+🌐 Portfolio: [stalkdeveloper.github.io/stalkdeveloper](https://stalkdeveloper.github.io/stalkdeveloper/)  
+💼 LinkedIn: [linkedin.com/in/stalkdeveloper](https://www.linkedin.com/in/stalkdeveloper/)  
+👨‍💻 GitHub: [github.com/stalkdeveloper](https://github.com/stalkdeveloper)
+
+---
+
+**Thanks for stopping by!**  
+**– Sunny Kumar**
