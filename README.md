@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Sunny Kumar
 
-I'm a passionate **Software Engineer** with a Master's in Computer Applications (MCA), currently working as a **Web & Backend Developer** with over **3.3 years of professional experience**.
+I'm a passionate **Software Engineer** with a Master's in Computer Applications (MCA), currently working as a **Web & Backend Developer** with over **4+ years of professional experience**.
 
 I specialize in crafting **scalable backend systems**, developing robust **RESTful APIs**, and building full-featured **web applications** using modern tech stacks like **Laravel, Node.js, and Django**.
 
