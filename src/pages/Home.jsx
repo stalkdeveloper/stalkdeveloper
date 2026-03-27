@@ -172,51 +172,98 @@ function Home({ isDark }) {
                 🚀
               </div>
               <div className="text-left">
-                <h3 className={`text-xl font-bold mb-1 ${
-                  isDark ? 'text-white' : 'text-gray-900'
-                }`}>
-                  Founder at StalkTechie
-                </h3>
+                <a 
+                  href="https://stalktechie.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="group"
+                >
+                  <h3 className={`text-xl font-bold mb-1 flex items-center gap-2 transition-all duration-300 group-hover:scale-105 ${
+                    isDark ? 'text-white' : 'text-gray-900'
+                  }`}>
+                    Founder at StalkTechie
+                    <span className="text-sm opacity-0 group-hover:opacity-100 transition-opacity">🔗</span>
+                  </h3>
+                </a>
                 <p className={`text-sm ${
                   isDark ? 'text-gray-400' : 'text-gray-600'
                 }`}>
-                  Empowering developers through knowledge sharing
+                  Discuss. Develop. Dominate. — Join thousands of developers
                 </p>
               </div>
             </div>
             <div className="flex gap-6">
-              <div className="text-center">
-                <FaUsers className={`text-2xl mx-auto mb-1 ${
+              <div className="text-center group">
+                <FaUsers className={`text-2xl mx-auto mb-1 transition-all duration-300 group-hover:scale-110 ${
                   isDark ? 'text-orange-400' : 'text-orange-500'
                 }`} />
-                <p className={`text-lg font-bold ${
-                  isDark ? 'text-white' : 'text-gray-900'
-                }`}>5K+</p>
+                <div className="relative">
+                  <p className={`text-lg font-bold inline-flex items-center gap-1 ${
+                    isDark ? 'text-white' : 'text-gray-900'
+                  }`}>
+                    <span className="bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
+                      Coming Soon
+                    </span>
+                    <span className="text-sm animate-pulse">✨</span>
+                  </p>
+                </div>
                 <p className={`text-xs ${
                   isDark ? 'text-gray-400' : 'text-gray-500'
                 }`}>Community</p>
               </div>
-              <div className="text-center">
-                <FaAward className={`text-2xl mx-auto mb-1 ${
+              <div className="text-center group">
+                <FaAward className={`text-2xl mx-auto mb-1 transition-all duration-300 group-hover:scale-110 ${
                   isDark ? 'text-orange-400' : 'text-orange-500'
                 }`} />
                 <p className={`text-lg font-bold ${
                   isDark ? 'text-white' : 'text-gray-900'
-                }`}>50+</p>
+                }`}>31+</p>
                 <p className={`text-xs ${
                   isDark ? 'text-gray-400' : 'text-gray-500'
                 }`}>Tutorials</p>
               </div>
-              <div className="text-center">
-                <FaChartLine className={`text-2xl mx-auto mb-1 ${
+              <div className="text-center group">
+                <FaChartLine className={`text-2xl mx-auto mb-1 transition-all duration-300 group-hover:scale-110 ${
                   isDark ? 'text-orange-400' : 'text-orange-500'
                 }`} />
                 <p className={`text-lg font-bold ${
                   isDark ? 'text-white' : 'text-gray-900'
-                }`}>100K+</p>
+                }`}>1K+</p>
                 <p className={`text-xs ${
                   isDark ? 'text-gray-400' : 'text-gray-500'
-                }`}>Views</p>
+                }`}>Developers</p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Quick Stats Row */}
+          <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+            <div className="flex flex-wrap justify-center gap-6 text-center">
+              <div>
+                <p className={`text-xs font-medium ${
+                  isDark ? 'text-gray-400' : 'text-gray-500'
+                }`}>
+                  📚 21+ Categories
+                </p>
+              </div>
+              <div>
+                <p className={`text-xs font-medium ${
+                  isDark ? 'text-gray-400' : 'text-gray-500'
+                }`}>
+                  💬 Trusted by 1,000+ developers
+                </p>
+              </div>
+              <div>
+                <a 
+                  href="https://stalktechie.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className={`text-xs font-medium inline-flex items-center gap-1 transition-all duration-300 hover:scale-105 ${
+                    isDark ? 'text-orange-400 hover:text-orange-300' : 'text-orange-600 hover:text-orange-700'
+                  }`}
+                >
+                  Visit StalkTechie →
+                </a>
               </div>
             </div>
           </div>
