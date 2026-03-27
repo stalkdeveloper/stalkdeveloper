@@ -97,7 +97,7 @@ function Experience({ isDark }) {
   };
 
   return (
-    <section id="experiences" className={`py-24 transition-colors duration-500 ${
+    <section id="experiences" className={`py-8 transition-colors duration-500 ${
       isDark ? 'bg-gray-900' : 'bg-gray-50'
     }`}>
       <div className="container mx-auto px-4 max-w-5xl">

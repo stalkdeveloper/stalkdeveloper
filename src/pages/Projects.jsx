@@ -146,7 +146,7 @@ function Projects({ isDark }) {
     : projects.filter(p => p.category === activeCategory);
 
   return (
-    <section id="projects" className={`py-24 transition-colors duration-500 ${
+    <section id="projects" className={`py-8 transition-colors duration-500 ${
       isDark ? 'bg-gray-900' : 'bg-gray-50'
     }`}>
       <div className="container mx-auto px-4 max-w-7xl">

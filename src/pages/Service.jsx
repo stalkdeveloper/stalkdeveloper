@@ -60,7 +60,7 @@ function Services({ isDark }) {
   ];
 
   return (
-    <section id="services" className={`py-20 transition-colors duration-500 ${
+    <section id="services" className={`py-8 transition-colors duration-500 ${
       isDark ? 'bg-gray-800' : 'bg-white'
     }`}>
       <div className="container mx-auto px-4 max-w-6xl">

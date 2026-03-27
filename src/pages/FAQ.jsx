@@ -48,7 +48,7 @@ function FAQ({ isDark }) {
   ];
 
   return (
-    <section id="faq" className={`py-20 transition-colors duration-500 ${
+    <section id="faq" className={`py-8 transition-colors duration-500 ${
       isDark ? 'bg-gray-900' : 'bg-white'
     }`}>
       <div className="container mx-auto px-4 max-w-4xl">

@@ -63,7 +63,7 @@ function Contact({ isDark }) {
   };
 
   return (
-    <section id="contact" className={`py-20 transition-colors duration-500 ${
+    <section id="contact" className={`py-8 transition-colors duration-500 ${
       isDark ? 'bg-gray-800' : 'bg-gray-50'
     }`}>
       <div className="container mx-auto px-4 max-w-6xl">
