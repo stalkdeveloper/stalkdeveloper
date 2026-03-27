@@ -1,76 +1,92 @@
 # 👋 Hi there, I'm Sunny Kumar
 
-I'm a passionate **Software Engineer** with a Master's in Computer Applications (MCA), currently working as a **Web & Backend Developer** with over **4+ years of professional experience**.
+I'm a passionate **MERN Stack Developer & Founder of StalkTechie** with a Master's in Computer Applications (MCA), currently having **4+ years of professional experience** in building scalable web applications and backend systems.
 
-I specialize in crafting **scalable backend systems**, developing robust **RESTful APIs**, and building full-featured **web applications** using modern tech stacks like **Laravel, Node.js, and Django**.
+I specialize in crafting **full-stack applications** using the **MERN stack (MongoDB, Express.js, React.js, Node.js)** along with strong expertise in backend architecture and RESTful APIs.
 
 ---
 
 ## 🚀 About Me
 
-- 👨‍💻 Web & Backend Developer focused on building efficient, secure systems and seamless user experiences.
-- 🧠 Advocate of clean architecture, optimized databases, and modular code design.
-- 🔁 Experienced with 3rd-party integrations (Binance, Bybit, Firebase, Google/Outlook Calendar, Slotegrator).
-- 🌱 Exploring DevOps, system design, event-driven architecture, and distributed systems.
-- 🎯 Committed to building meaningful products that solve real-world problems.
+- 👨‍💻 MERN Stack Developer focused on scalable, secure, high-performance systems  
+- 🚀 **Founder of StalkTechie** – a backend-focused learning & developer platform  
+- 🧠 Strong advocate of clean architecture, optimized databases, and modular design  
+- 🔁 Experienced with real-time systems, WebSockets, and third-party integrations  
+- 🌱 Exploring DevOps, system design, microservices, and distributed systems  
+- 🎯 Passionate about building impactful products that solve real-world problems  
+
+---
+
+## 🌐 My Startup
+
+### 🚀 StalkTechie  
+
+**StalkTechie** is a backend-focused learning and community platform that I founded to help developers master scalable system design and real-world backend engineering.
+
+**What I'm building:**
+- 📚 Backend & MERN tutorials  
+- 👥 Developer community & collaboration  
+- 🧠 System design & real-world case studies  
+- ⚙️ Scalable learning platform  
+
+🔗 Website: https://stalktechie.com  
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### 💻 **Languages**
-- HTML, CSS, JavaScript, AJAX, jQuery
-- Node.js, Core PHP, Python (Basic), C, C++
-- RESTful API Design
+- JavaScript (ES6+), HTML, CSS  
+- Core PHP, Python (Basic), C, C++  
+- RESTful API Design  
 
 ### 🧱 **Frameworks & Libraries**
-- **Backend**: Laravel, CodeIgniter, Express.js, Django
-- **Frontend**: Bootstrap, Tailwind CSS, React.js (Basic)
-- **CMS**: WordPress
+- **Frontend**: React.js, Next.js, Bootstrap, Tailwind CSS, jQuery  
+- **Backend**: Node.js, Express.js, Laravel, CodeIgniter, Django  
+- **CMS**: WordPress  
 
 ### 🗄️ **Databases**
-- MySQL, MongoDB, SQLite
+- MongoDB, MySQL, SQLite  
 
 ### ☁️ **DevOps & Tools**
 - Git, GitLab, Bitbucket  
-- Postman, Firebase  
-- AWS (EC2, S3 - Basic), Docker (Basic), cPanel  
-- CI/CD (Familiarity)
+- Docker (Basic), AWS (EC2, S3 - Basic)  
+- Firebase, Postman  
+- CI/CD (Familiarity), cPanel  
 
 ### 🧠 **Architecture & Design**
-- MVC, MVT, Scalable API Design  
-- WebSockets, Event Listeners, Cron Jobs  
-- Role-Based Access Control (RBAC)
+- MERN Stack Architecture  
+- MVC, MVT, Microservices  
+- Event-Driven Systems, WebSockets  
+- RBAC (Role-Based Access Control)  
+- Scalable API Design & Multi-Tenant Systems  
 
 ---
 
-## 📈 Open Source Contributions
+## 💼 Current Focus
 
-### 🔧 [Laravel CRUD Generator](https://packagist.org/packages/stalkdeveloper/laravel-crud-generator) — Published on Packagist  
-An open-source Laravel package that **automates CRUD (Create, Read, Update, Delete)** code generation for rapid backend development and admin panel setup.
-
-**Key Features:**
-- Auto-generates models, migrations, controllers, routes
-- Supports validation rules and input types
-- Speeds up Laravel project scaffolding
-
-📦 Packagist: [stalkdeveloper/laravel-crud-generator](https://packagist.org/packages/stalkdeveloper/laravel-crud-generator)  
-📂 GitHub [https://github.com/stalkdeveloper/laravel-crud-generator](https://github.com/stalkdeveloper/laravel-crud-generator)
+- 🚀 Scaling **StalkTechie platform**
+- ⚡ Building high-performance **MERN applications**
+- 🧠 Designing **scalable backend architectures**
+- 🔄 Working on **real-time & event-driven systems**
+- ☁️ Exploring **DevOps & distributed systems**
 
 ---
 
 ## 💬 Let's Connect
 
-I'm always up for conversations around:
-- Scalable software development
-- Backend architecture and DevOps
-- Freelance/full-time opportunities
-- Open-source and community contributions
+I'm always open to conversations about:
 
-📫 Email: [sunnyk.kongu@gmail.com](mailto:sunnyk.kongu@gmail.com)  
-🌐 Portfolio: [stalkdeveloper.github.io/stalkdeveloper](https://stalkdeveloper.github.io/stalkdeveloper/)  
-💼 LinkedIn: [linkedin.com/in/stalkdeveloper](https://www.linkedin.com/in/stalkdeveloper/)  
-👨‍💻 GitHub: [github.com/stalkdeveloper](https://github.com/stalkdeveloper)
+- MERN Stack Development  
+- Startup building & system design  
+- Freelance / Full-time Opportunities  
+- Open Source Contributions  
+
+📫 Email: sunnyk.kongu@gmail.com  
+🌐 Portfolio: https://stalkdeveloper.github.io/stalkdeveloper/  
+🌍 StalkTechie: https://stalktechie.com  
+💼 LinkedIn: https://www.linkedin.com/in/stalkdeveloper/  
+👨‍💻 GitHub: https://github.com/stalkdeveloper  
 
 ---
 
