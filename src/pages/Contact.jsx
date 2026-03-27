@@ -125,25 +125,6 @@ function Contact({ isDark }) {
                   <div className={`w-10 h-10 rounded-lg flex items-center justify-center ${
                     isDark ? 'bg-gray-800 text-gray-400' : 'bg-gray-100 text-gray-600'
                   }`}>
-                    <FaPhoneAlt />
-                  </div>
-                  <div>
-                    <p className={`text-xs ${
-                      isDark ? 'text-gray-400' : 'text-gray-500'
-                    }`}>
-                      Phone
-                    </p>
-                    <a href="tel:+919123456789" className={`transition-colors ${
-                      isDark ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-gray-900'
-                    }`}>
-                      +91 9123456789
-                    </a>
-                  </div>
-                </div>
-                <div className="flex items-center gap-4">
-                  <div className={`w-10 h-10 rounded-lg flex items-center justify-center ${
-                    isDark ? 'bg-gray-800 text-gray-400' : 'bg-gray-100 text-gray-600'
-                  }`}>
                     <FaMapMarkerAlt />
                   </div>
                   <div>
