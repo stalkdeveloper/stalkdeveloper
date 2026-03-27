@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -10,17 +10,28 @@ import Footer from './components/Footer';
 import Experience from './pages/Experience'; 
 
 function App() {
+  const [isDark, setIsDark] = useState(true);
+
+  useEffect(() => {
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    setIsDark(prefersDark);
+  }, []);
+
+  const toggleTheme = () => {
+    setIsDark(!isDark);
+  };
+
   return (
-    <div className="bg-white text-gray-900 font-sans">
-      <Navbar />
-      <Home />
-      <About />
-      <Services />
-      <Experience />
-      <FAQ />
-      <Projects />
-      <Contact />
-      <Footer />
+    <div className={`${isDark ? 'dark' : ''}`}>
+      <Navbar isDark={isDark} toggleTheme={toggleTheme} />
+      <Home isDark={isDark} />
+      <About isDark={isDark} />
+      <Services isDark={isDark} />
+      <Experience isDark={isDark} />
+      <Projects isDark={isDark} />
+      <FAQ isDark={isDark} />
+      <Contact isDark={isDark} />
+      <Footer isDark={isDark} />
     </div>
   );
 }

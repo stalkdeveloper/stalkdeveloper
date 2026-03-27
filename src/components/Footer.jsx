@@ -1,46 +1,55 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
-function Footer() {
+function Footer({ isDark }) {
   return (
-    <footer className="bg-gray-800 text-white py-6">
-      <div className="container mx-auto px-4 text-center">
-        <p className="text-sm mb-3">© {new Date().getFullYear()} Stalk Developer. All rights reserved.</p>
+    <footer className={`transition-colors duration-500 py-8 ${
+      isDark ? 'bg-gray-900' : 'bg-gray-100'
+    }`}>
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="text-center md:text-left">
+            <h3 className={`text-lg font-bold ${
+              isDark ? 'text-white' : 'text-gray-800'
+            }`}>
+              Stalk Developer
+            </h3>
+            <p className={`text-xs mt-1 ${
+              isDark ? 'text-gray-400' : 'text-gray-500'
+            }`}>
+              MERN Stack Developer & Founder of StalkTechie
+            </p>
+          </div>
 
-        <div className="flex justify-center space-x-4 mb-3">
-          {/* Social Icons */}
-          <a
-            href="https://www.linkedin.com/in/stalkdeveloper"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-blue-500 transition-colors duration-200"
-            aria-label="LinkedIn"
-          >
-            <FaLinkedin size={22} />
-          </a>
+          <div className="flex space-x-4">
+            <a href="https://www.linkedin.com/in/stalkdeveloper" target="_blank" rel="noopener noreferrer" className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 ${
+              isDark ? 'bg-gray-800 text-gray-400 hover:bg-gray-700' : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
+            }`}>
+              <FaLinkedin size={18} />
+            </a>
+            <a href="https://github.com/stalkdeveloper" target="_blank" rel="noopener noreferrer" className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 ${
+              isDark ? 'bg-gray-800 text-gray-400 hover:bg-gray-700' : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
+            }`}>
+              <FaGithub size={18} />
+            </a>
+            <a href="https://www.instagram.com/stalkvlog" target="_blank" rel="noopener noreferrer" className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 ${
+              isDark ? 'bg-gray-800 text-gray-400 hover:bg-gray-700' : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
+            }`}>
+              <FaInstagram size={18} />
+            </a>
+            <a href="mailto:sunnyk.kongu@gmail.com" className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 ${
+              isDark ? 'bg-gray-800 text-gray-400 hover:bg-gray-700' : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
+            }`}>
+              <FaEnvelope size={18} />
+            </a>
+          </div>
 
-          <a
-            href="https://github.com/stalkdeveloper"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-gray-400 transition-colors duration-200"
-            aria-label="GitHub"
-          >
-            <FaGithub size={22} />
-          </a>
-
-          <a
-            href="https://www.instagram.com/stalkvlog"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-pink-500 transition-colors duration-200"
-            aria-label="Instagram"
-          >
-            <FaInstagram size={22} />
-          </a>
+          <p className={`text-xs ${
+            isDark ? 'text-gray-400' : 'text-gray-500'
+          }`}>
+            © {new Date().getFullYear()} Sunny Kumar. All rights reserved.
+          </p>
         </div>
-
-        <p className="text-xs text-gray-400">Sunny Kumar — Web & Backend Developer</p>
       </div>
     </footer>
   );

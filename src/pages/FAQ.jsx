@@ -1,72 +1,110 @@
 import React, { useState } from 'react';
 import { HiChevronDown, HiChevronUp } from 'react-icons/hi';
 
-const faqs = [
-  {
-    question: 'What technologies do you specialize in?',
-    answer:
-      'MERN stack, PHP (Laravel, CodeIgniter), Python (Django), MySQL, MongoDB, REST APIs — I build full, scalable solutions.',
-  },
-  {
-    question: 'Do you work on both frontend and backend?',
-    answer:
-      'Yes. From dynamic React/Next.js UIs to backend logic, APIs, auth systems, and deployment — I cover it all.',
-  },
-  {
-    question: 'Have you built e-commerce platforms?',
-    answer:
-      'I’ve built custom e-commerce platforms using Laravel, integrated carts, payment gateways, and product management dashboards.',
-  },
-  {
-    question: 'Are you open to freelance or remote roles?',
-    answer:
-      'Absolutely. I’m open to freelance gigs, part-time contracts, or remote positions — as long as it’s a good fit.',
-  },
-  {
-    question: 'Can you integrate third-party services or APIs?',
-    answer:
-      'Yes — I’ve integrated a wide range of third-party services including Stripe, PayPal, Wave Payments for secure transactions; Firebase, Google APIs (Maps, Auth, Calendar), ChatGPT, and MailerLite for CRM and communication workflows. Every integration is handled with a focus on security, reliability, and a seamless user experience.',
-  },
-  {
-    question: 'Have you implemented Two-Factor Authentication (2FA)?',
-    answer:
-      'Yes, I’ve implemented 2FA using email, SMS, and authenticator apps (like Google Authenticator or Authy), typically through services like Firebase, Twilio, or custom logic with time-based one-time passwords (TOTP). It’s a key part of the authentication flow for apps requiring added security.',
-  }  
-];
-
-function FAQ() {
+function FAQ({ isDark }) {
   const [activeIndex, setActiveIndex] = useState(null);
 
-  const handleToggle = (index) => {
-    setActiveIndex(index === activeIndex ? null : index);
-  };
+  const faqs = [
+    {
+      question: 'What technologies do you specialize in?',
+      answer: 'I specialize in MERN stack (MongoDB, Express.js, React, Node.js), along with Laravel, PHP, MySQL, and modern frontend technologies like Tailwind CSS. I also have experience with Next.js, TypeScript, and various cloud platforms like AWS.',
+    },
+    {
+      question: 'What is your current role?',
+      answer: 'I am currently working as a MERN Stack Developer at Helpful Insight Private Limited, developing scalable web applications and real-time systems. I also work as a freelance developer and founder of StalkTechie.',
+    },
+    {
+      question: 'What kind of projects have you built?',
+      answer: 'I have built e-commerce platforms, real-time gaming systems, business CRMs, ride-sharing applications, trading platforms, marketplace solutions, logistics platforms, and many more web applications.',
+    },
+    {
+      question: 'Do you work on both frontend and backend?',
+      answer: 'Yes! I am a full-stack developer with strong expertise in both frontend (React, Next.js, Tailwind CSS) and backend (Node.js, Laravel, Express, PHP). I can handle the entire development lifecycle from database design to deployment.',
+    },
+    {
+      question: 'Are you open to freelance or remote opportunities?',
+      answer: 'Absolutely! I am open to freelance projects, part-time contracts, and full-time remote positions. I love collaborating with clients from around the world and bringing their ideas to life.',
+    },
+    {
+      question: 'What third-party integrations have you worked with?',
+      answer: 'I have integrated payment gateways (Stripe, PayPal, Razorpay), trading APIs (Binance, Bybit), Firebase, Google Maps API, Google Analytics, WebSockets, and various social media APIs.',
+    },
+    {
+      question: 'What is your development process?',
+      answer: 'My development process includes: 1) Requirements gathering and analysis, 2) Architecture and database design, 3) Development with regular updates, 4) Testing and QA, 5) Deployment and monitoring, 6) Post-launch support and maintenance.',
+    },
+    {
+      question: 'How do you ensure code quality?',
+      answer: 'I follow best practices including code reviews, testing (unit and integration), continuous integration, version control with Git, and following coding standards and design patterns.',
+    },
+    {
+      question: 'What is StalkTechie?',
+      answer: 'StalkTechie is my initiative to empower developers through knowledge sharing. I create tutorials, share coding tips, and build a community of passionate developers. It has grown to 5,000+ community members with 50+ tutorials and 100,000+ views.',
+    },
+    {
+      question: 'How can I contact you for a project?',
+      answer: 'You can reach out through the contact form on this website, email me at sunnyk.kongu@gmail.com, or connect with me on LinkedIn. I typically respond within 24 hours.',
+    }
+  ];
 
   return (
-    <section id="faq" className="bg-white py-16">
-      <div className="max-w-3xl mx-auto px-4">
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-10">
-          Frequently Asked Questions
-        </h2>
-        <div className="space-y-5">
+    <section id="faq" className={`py-20 transition-colors duration-500 ${
+      isDark ? 'bg-gray-900' : 'bg-white'
+    }`}>
+      <div className="container mx-auto px-4 max-w-4xl">
+        <div className="text-center mb-12">
+          <div className="inline-block mb-4">
+            <span className={`text-sm font-medium px-4 py-2 rounded-full ${
+              isDark ? 'bg-gray-800 text-gray-300' : 'bg-gray-100 text-gray-600'
+            }`}>
+              ❓ Frequently Asked Questions
+            </span>
+          </div>
+          <h2 className={`text-3xl md:text-4xl font-bold mb-4 ${
+            isDark ? 'text-white' : 'text-gray-900'
+          }`}>
+            Got Questions?
+          </h2>
+          <div className={`w-20 h-1 mx-auto rounded-full ${
+            isDark ? 'bg-gray-600' : 'bg-gray-300'
+          }`}></div>
+          <p className={`mt-4 ${
+            isDark ? 'text-gray-400' : 'text-gray-600'
+          }`}>
+            Everything you need to know about my work and services
+          </p>
+        </div>
+
+        <div className="space-y-3">
           {faqs.map((faq, index) => (
-            <div key={index} className="border-b pb-3">
+            <div
+              key={index}
+              className={`rounded-xl shadow-md border overflow-hidden transition-all duration-300 animate-fadeInUp ${
+                isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-100'
+              }`}
+              style={{ animationDelay: `${index * 0.03}s` }}
+            >
               <button
-                onClick={() => handleToggle(index)}
-                className="w-full flex justify-between items-center text-left text-sm text-gray-800 font-medium hover:text-blue-600 transition-colors"
+                onClick={() => setActiveIndex(activeIndex === index ? null : index)}
+                className="w-full flex justify-between items-center p-5 text-left hover:bg-opacity-50 transition-colors"
               >
-                <span>{faq.question}</span>
+                <span className={`text-base font-semibold ${
+                  isDark ? 'text-white' : 'text-gray-800'
+                }`}>
+                  {faq.question}
+                </span>
                 {activeIndex === index ? (
-                  <HiChevronUp className="text-blue-600" size={20} />
+                  <HiChevronUp className={isDark ? 'text-gray-400 flex-shrink-0' : 'text-gray-600 flex-shrink-0'} size={20} />
                 ) : (
-                  <HiChevronDown className="text-gray-500" size={20} />
+                  <HiChevronDown className={isDark ? 'text-gray-500 flex-shrink-0' : 'text-gray-400 flex-shrink-0'} size={20} />
                 )}
               </button>
-              <div
-                className={`mt-2 text-gray-600 text-xs transition-all duration-200 ease-in-out ${
-                  activeIndex === index ? 'block' : 'hidden'
-                }`}
-              >
-                {faq.answer}
+              <div className={`transition-all duration-300 ease-in-out ${activeIndex === index ? 'max-h-96 opacity-100 p-5 pt-0' : 'max-h-0 opacity-0 overflow-hidden'}`}>
+                <p className={`text-sm leading-relaxed ${
+                  isDark ? 'text-gray-400' : 'text-gray-600'
+                }`}>
+                  {faq.answer}
+                </p>
               </div>
             </div>
           ))}
