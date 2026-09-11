@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Sunny Kumar
 
-I'm a passionate **MERN Stack Developer & Founder of StalkTechie** with a Master's in Computer Applications (MCA), currently having **4+ years of professional experience** in building scalable web applications and backend systems.
+I'm a passionate **MERN Stack Developer & Founder of uShortify** with a Master's in Computer Applications (MCA), currently having **4+ years of professional experience** in building scalable web applications and backend systems.
 
 I specialize in crafting **full-stack applications** using the **MERN stack (MongoDB, Express.js, React.js, Node.js)** along with strong expertise in backend architecture and RESTful APIs.
 
@@ -9,7 +9,7 @@ I specialize in crafting **full-stack applications** using the **MERN stack (Mon
 ## 🚀 About Me
 
 - 👨‍💻 MERN Stack Developer focused on scalable, secure, high-performance systems  
-- 🚀 **Founder of StalkTechie** – a backend-focused learning & developer platform  
+- 🚀 **Founder of uShortify** – a link shortening, branding, and analytics platform  
 - 🧠 Strong advocate of clean architecture, optimized databases, and modular design  
 - 🔁 Experienced with real-time systems, WebSockets, and third-party integrations  
 - 🌱 Exploring DevOps, system design, microservices, and distributed systems  
@@ -19,17 +19,17 @@ I specialize in crafting **full-stack applications** using the **MERN stack (Mon
 
 ## 🌐 My Startup
 
-### 🚀 StalkTechie  
+### 🚀 uShortify  
 
-**StalkTechie** is a backend-focused learning and community platform that I founded to help developers master scalable system design and real-world backend engineering.
+**uShortify** is a link management platform that I founded to help people shorten, brand, and track every link they share.
 
 **What I'm building:**
-- 📚 Backend & MERN tutorials  
-- 👥 Developer community & collaboration  
-- 🧠 System design & real-world case studies  
-- ⚙️ Scalable learning platform  
+- 🔗 Custom branded short links and aliases  
+- 📊 Live click tracking and advanced analytics  
+- 📱 QR codes, password protection, and link expiration  
+- 👥 Team collaboration with roles and permissions  
 
-🔗 Website: https://stalktechie.com  
+🔗 Website: https://ushortify.com  
 
 ---
 
@@ -65,7 +65,7 @@ I specialize in crafting **full-stack applications** using the **MERN stack (Mon
 
 ## 💼 Current Focus
 
-- 🚀 Scaling **StalkTechie platform**
+- 🚀 Scaling **uShortify platform**
 - ⚡ Building high-performance **MERN applications**
 - 🧠 Designing **scalable backend architectures**
 - 🔄 Working on **real-time & event-driven systems**
@@ -84,7 +84,7 @@ I'm always open to conversations about:
 
 📫 Email: sunnyk.kongu@gmail.com  
 🌐 Portfolio: https://stalkdeveloper.github.io/stalkdeveloper/  
-🌍 StalkTechie: https://stalktechie.com  
+🌍 uShortify: https://ushortify.com  
 💼 LinkedIn: https://www.linkedin.com/in/stalkdeveloper/  
 👨‍💻 GitHub: https://github.com/stalkdeveloper  
 

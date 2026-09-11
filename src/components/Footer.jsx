@@ -17,7 +17,7 @@ function Footer({ isDark }) {
             <p className={`text-xs mt-1 ${
               isDark ? 'text-gray-400' : 'text-gray-500'
             }`}>
-              MERN Stack Developer & Founder of StalkTechie
+              MERN Stack Developer & Founder of uShortify
             </p>
           </div>
 

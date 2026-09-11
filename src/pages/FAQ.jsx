@@ -11,7 +11,7 @@ function FAQ({ isDark }) {
     },
     {
       question: 'What is your current role?',
-      answer: 'I am currently working as a MERN Stack Developer at Helpful Insight Private Limited, developing scalable web applications and real-time systems. I also work as a freelance developer and founder of StalkTechie.',
+      answer: 'I am currently working as a MERN Stack Developer at Helpful Insight Private Limited, developing scalable web applications and real-time systems. I also work as a freelance developer and founder of uShortify.',
     },
     {
       question: 'What kind of projects have you built?',
@@ -38,8 +38,8 @@ function FAQ({ isDark }) {
       answer: 'I follow best practices including code reviews, testing (unit and integration), continuous integration, version control with Git, and following coding standards and design patterns.',
     },
     {
-      question: 'What is StalkTechie?',
-      answer: 'StalkTechie is my initiative to empower developers through knowledge sharing. I create tutorials, share coding tips, and build a community of passionate developers. It has grown to 5,000+ community members with 50+ tutorials and 100,000+ views.',
+      question: 'What is uShortify?',
+      answer: 'uShortify is a link management platform for shortening, branding, and tracking links. It includes custom aliases, live click tracking, QR codes, advanced analytics, password protection, link expiration, and team collaboration.',
     },
     {
       question: 'How can I contact you for a project?',

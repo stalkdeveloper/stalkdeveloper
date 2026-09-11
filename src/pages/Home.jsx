@@ -85,17 +85,22 @@ function Home({ isDark }) {
           <p className={`text-xl md:text-2xl font-light inline-block ${
             isDark ? 'text-gray-300' : 'text-gray-600'
           }`}>
-            I'm a{' '}
+            I'm a
           </p>
-          <div className="inline-block">
-            <span className={`text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent animate-pulse`}>
+
+          <div className="inline-block ml-2">
+            <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent animate-pulse">
               {technologies[currentTech]}
             </span>
-            <span className={`text-xl md:text-2xl font-light ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-              {' '}Developer
+
+            <span className={`text-xl md:text-2xl font-light ml-2 ${
+              isDark ? 'text-gray-300' : 'text-gray-600'
+            }`}>
+              Developer
             </span>
           </div>
         </div>
+
 
         {/* Description */}
         <p className={`text-lg md:text-xl mb-8 font-light max-w-2xl mx-auto animate-fadeInUp animation-delay-400 ${
@@ -158,7 +163,7 @@ function Home({ isDark }) {
           </a>
         </div>
 
-        {/* StalkTechie Founder Section */}
+        {/* uShortify Founder Section */}
         <div className={`mt-16 p-6 rounded-2xl backdrop-blur-sm border animate-fadeInUp animation-delay-1000 ${
           isDark 
             ? 'bg-gray-800/50 border-gray-700' 
@@ -173,7 +178,7 @@ function Home({ isDark }) {
               </div>
               <div className="text-left">
                 <a 
-                  href="https://stalktechie.com" 
+                  href="https://ushortify.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="group"
@@ -181,14 +186,14 @@ function Home({ isDark }) {
                   <h3 className={`text-xl font-bold mb-1 flex items-center gap-2 transition-all duration-300 group-hover:scale-105 ${
                     isDark ? 'text-white' : 'text-gray-900'
                   }`}>
-                    Founder at StalkTechie
+                    Founder at uShortify
                     <span className="text-sm opacity-0 group-hover:opacity-100 transition-opacity">🔗</span>
                   </h3>
                 </a>
                 <p className={`text-sm ${
                   isDark ? 'text-gray-400' : 'text-gray-600'
                 }`}>
-                  Discuss. Develop. Dominate. — Join thousands of developers
+                  Shorten, brand, and track every link you share.
                 </p>
               </div>
             </div>
@@ -202,14 +207,13 @@ function Home({ isDark }) {
                     isDark ? 'text-white' : 'text-gray-900'
                   }`}>
                     <span className="bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
-                      Coming Soon
+                      &lt;50ms
                     </span>
-                    <span className="text-sm animate-pulse">✨</span>
                   </p>
                 </div>
                 <p className={`text-xs ${
                   isDark ? 'text-gray-400' : 'text-gray-500'
-                }`}>Community</p>
+                }`}>Redirect Speed</p>
               </div>
               <div className="text-center group">
                 <FaAward className={`text-2xl mx-auto mb-1 transition-all duration-300 group-hover:scale-110 ${
@@ -217,10 +221,10 @@ function Home({ isDark }) {
                 }`} />
                 <p className={`text-lg font-bold ${
                   isDark ? 'text-white' : 'text-gray-900'
-                }`}>31+</p>
+                }`}>Live</p>
                 <p className={`text-xs ${
                   isDark ? 'text-gray-400' : 'text-gray-500'
-                }`}>Tutorials</p>
+                }`}>Click Tracking</p>
               </div>
               <div className="text-center group">
                 <FaChartLine className={`text-2xl mx-auto mb-1 transition-all duration-300 group-hover:scale-110 ${
@@ -228,10 +232,10 @@ function Home({ isDark }) {
                 }`} />
                 <p className={`text-lg font-bold ${
                   isDark ? 'text-white' : 'text-gray-900'
-                }`}>1K+</p>
+                }`}>99.9%</p>
                 <p className={`text-xs ${
                   isDark ? 'text-gray-400' : 'text-gray-500'
-                }`}>Developers</p>
+                }`}>Uptime</p>
               </div>
             </div>
           </div>
@@ -243,26 +247,26 @@ function Home({ isDark }) {
                 <p className={`text-xs font-medium ${
                   isDark ? 'text-gray-400' : 'text-gray-500'
                 }`}>
-                  📚 21+ Categories
+                  🔗 Custom aliases
                 </p>
               </div>
               <div>
                 <p className={`text-xs font-medium ${
                   isDark ? 'text-gray-400' : 'text-gray-500'
                 }`}>
-                  💬 Trusted by 1,000+ developers
+                  📊 Advanced analytics
                 </p>
               </div>
               <div>
                 <a 
-                  href="https://stalktechie.com" 
+                  href="https://ushortify.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className={`text-xs font-medium inline-flex items-center gap-1 transition-all duration-300 hover:scale-105 ${
                     isDark ? 'text-orange-400 hover:text-orange-300' : 'text-orange-600 hover:text-orange-700'
                   }`}
                 >
-                  Visit StalkTechie →
+                  Visit uShortify →
                 </a>
               </div>
             </div>
